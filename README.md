@@ -32,7 +32,7 @@ The original raw data files are provided by Duolingo and can be accessed at: htt
 
 ## Dependencies & First Steps
 
-`requirements.txt` contains all required dependencies. To access all data files, run the commands `cd data; unzip data.zip`. To access all models, including those with which you can use the `play_student_model.py` script, run `mkdir models; cd models`, download the file `acl2021_models.zip` (from  https://www.dropbox.com/s/chkdhmn54l2ptzf/acl2021_models.zip?dl=0) into the `models` directory,  and run `unzip acl2021_models.zip`. 
+`requirements.txt` contains required dependencies for this code, and we additionally use the HuggingFaces Transformers library version `3.4.0`. To access all data files, run the commands `cd data; unzip data.zip`. To access all models, including those with which you can use the `play_student_model.py` script, run `mkdir models; cd models`, download the file `acl2021_models.zip` (from  https://www.dropbox.com/s/chkdhmn54l2ptzf/acl2021_models.zip?dl=0) into the `models` directory,  and run `unzip acl2021_models.zip`. 
 
 ## Play around with LM-KT Student Knowledge Tracing
 Once the models have downloaded, you can use interact with trained student models for French and Spanish learners (from English). An example command for French student model is:
